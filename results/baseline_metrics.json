@@ -1,0 +1,13 @@
+{
+  "experiment": "centralized_gru_baseline",
+  "data_type": "synthetic",
+  "real_world_results": false,
+  "seed": 42,
+  "sequence_length": 24,
+  "epochs": 15,
+  "train_observations": 1440,
+  "test_observations": 360,
+  "mae": 0.0599362812936306,
+  "rmse": 0.07233107089996338,
+  "units": "synthetic traffic-flow units"
+}

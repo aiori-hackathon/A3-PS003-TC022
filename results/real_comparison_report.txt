@@ -1,0 +1,18 @@
+NoCivicSense — Real PeMS04 Results
+=======================================================
+Dataset: public PeMS04, 32 selected sensors
+Errors: normalized traffic-flow units
+Federated communication: estimated model payload only
+
+          experiment      mae     rmse  communication_bytes
+     Centralized GRU 0.035572 0.052718                  NaN
+          FedAvg IID 0.038328 0.055389             325728.0
+      FedAvg non-IID 0.038564 0.055819             325728.0
+Persistence baseline 0.040140 0.060728                  NaN
+
+Limitations:
+- PeMS04 is California traffic data, not Indian traffic data.
+- IID and non-IID clients are simulated.
+- Communication excludes protocol overhead.
+- Centralized communication was not measured.
+- Persistence predicts the next value using the last observation.

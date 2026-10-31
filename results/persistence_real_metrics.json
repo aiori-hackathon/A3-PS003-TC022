@@ -1,0 +1,10 @@
+{
+    "experiment": "Persistence baseline",
+    "data_type": "real_public_pems04",
+    "mae": 0.04013961926102638,
+    "rmse": 0.06072755933373102,
+    "prediction_rule": "Next value equals last observed value",
+    "sequence_length": 24,
+    "selected_sensors": 32,
+    "note": "Errors are in normalized traffic-flow units."
+}

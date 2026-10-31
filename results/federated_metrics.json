@@ -1,0 +1,88 @@
+[
+  {
+    "experiment": "fedavg_iid",
+    "data_type": "synthetic",
+    "real_world_results": false,
+    "split_method": "iid",
+    "num_clients": 4,
+    "federated_rounds": 5,
+    "local_epochs": 1,
+    "mae": 0.14431588351726532,
+    "rmse": 0.166488915681839,
+    "model_payload_bytes_per_client_transfer": 13572,
+    "estimated_download_bytes": 271440,
+    "estimated_upload_bytes": 271440,
+    "estimated_total_communication_bytes": 542880,
+    "communication_estimate_includes_protocol_overhead": false,
+    "round_history": [
+      {
+        "round": 1,
+        "mae": 0.40370041131973267,
+        "rmse": 0.4431850016117096
+      },
+      {
+        "round": 2,
+        "mae": 0.23372845351696014,
+        "rmse": 0.2777790427207947
+      },
+      {
+        "round": 3,
+        "mae": 0.14430391788482666,
+        "rmse": 0.1669624000787735
+      },
+      {
+        "round": 4,
+        "mae": 0.14833210408687592,
+        "rmse": 0.16974422335624695
+      },
+      {
+        "round": 5,
+        "mae": 0.14431588351726532,
+        "rmse": 0.166488915681839
+      }
+    ]
+  },
+  {
+    "experiment": "fedavg_non_iid",
+    "data_type": "synthetic",
+    "real_world_results": false,
+    "split_method": "non_iid",
+    "num_clients": 4,
+    "federated_rounds": 5,
+    "local_epochs": 1,
+    "mae": 0.13239224255084991,
+    "rmse": 0.15279096364974976,
+    "model_payload_bytes_per_client_transfer": 13572,
+    "estimated_download_bytes": 271440,
+    "estimated_upload_bytes": 271440,
+    "estimated_total_communication_bytes": 542880,
+    "communication_estimate_includes_protocol_overhead": false,
+    "round_history": [
+      {
+        "round": 1,
+        "mae": 0.4546819031238556,
+        "rmse": 0.48960915207862854
+      },
+      {
+        "round": 2,
+        "mae": 0.26963984966278076,
+        "rmse": 0.313960462808609
+      },
+      {
+        "round": 3,
+        "mae": 0.14054858684539795,
+        "rmse": 0.16243095695972443
+      },
+      {
+        "round": 4,
+        "mae": 0.14963649213314056,
+        "rmse": 0.17304149270057678
+      },
+      {
+        "round": 5,
+        "mae": 0.13239224255084991,
+        "rmse": 0.15279096364974976
+      }
+    ]
+  }
+]

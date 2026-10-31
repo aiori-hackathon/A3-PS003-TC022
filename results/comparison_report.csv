@@ -1,0 +1,4 @@
+experiment,data_type,clients,rounds,mae,rmse,communication_bytes
+centralized_gru_baseline,synthetic,1,0,0.0599362812936306,0.07233107089996338,0
+fedavg_iid,synthetic,4,5,0.14431588351726532,0.166488915681839,542880
+fedavg_non_iid,synthetic,4,5,0.13239224255084991,0.15279096364974976,542880
