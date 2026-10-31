@@ -121,3 +121,6 @@ See the **About & Methodology** page in the dashboard for full details.
 | Communication Cost | IID and non-IID payload totals and per-round upload/download history |
 | Experiments | Run training scripts, monitor status, view output |
 | About & Methodology | Problem statement, model design, limitations |
+
+
+Youtube link of the demonstration: https://youtu.be/6q5g5uAnJVg?si=16DScdLUBLH7X7TZ
